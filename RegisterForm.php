@@ -15,7 +15,7 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
      
-              $qry=`Insert into register VALUES ('$username','$password','$gender','$dob','$phone','$state','$city','$email');`;
+              $qry = `Insert into register VALUES ('$username','$password','$gender','$dob','$phone','$state','$city','$email');`;
               echo '$qry';
               if (mysqli_query($con, $qry)) {
                 echo "New record created successfully";
