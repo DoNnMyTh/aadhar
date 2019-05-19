@@ -16,10 +16,10 @@
             } 
      
               $qry=`Insert into register values('$username','$password','$gender','$dob','$phone','$state','$city','$email');`;
-              if (mysqli_query($con, $sql)) {
+              if (mysqli_query($con, $qry)) {
                 echo "New record created successfully";
             } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($con);
+                echo "Error: " . $qry . "<br>" . mysqli_error($con);
             }
      
      
