@@ -10,7 +10,7 @@
      
                        
      
-          $con =new mysqli_connect("localhost","root","","namitadb");
+          $con = mysqli_connect("localhost","root","","namitadb");
           if ($con->connect_error) {
                 die("Connection failed: " . $con->connect_error);
             } 
