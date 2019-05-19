@@ -11,9 +11,12 @@
                        
      
           $con =new mysqli("localhost","root","","namitadb");
+          if ($con->connect_error) {
+                die("Connection failed: " . $con->connect_error);
+            } 
      
-              $qry="Insert into register values('$username','$password','$gender','$dob','$phone','$state','$city','$email','User','unblocked');";
-             echo($qry); $rows = $con->query($qry);
+              $qry=`Insert into register values('$username','$password','$gender','$dob','$phone','$state','$city','$email','User','unblocked');`;
+              $rows = $con->query($qry);
                if($rows>0)
               {
                   echo('<br>Data inserted successfully!!');
@@ -25,6 +28,6 @@
      
      
      
-
+             $con->close();
 
 ?>
