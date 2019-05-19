@@ -1,0 +1,14 @@
+create table Info (
+    -> Arrivaltime date,
+    -> Depaturetime date,
+    -> To varchar(20),
+    -> Departure varchar(20),
+    -> Duration varchar(10),
+    -> Classes varchar(10),
+    -> Halts int,
+    -> Distance varchar(10),
+    -> Departuredays varchar(30) );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'To varchar(20),
+Departure varchar(20),
+Duration varchar(10),
+Classes varchar(10)' at line 4
