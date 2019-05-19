@@ -4,8 +4,8 @@
      $gender=$_POST['gender'];
      $dob=$_POST['date'];
      $phone=$_POST['phone'];
-     $state=$_POST['State'];
-     $city=$_POST['City'];
+     $state=$_POST['state'];
+     $city=$_POST['city'];
      $email=$_POST['email'];
      
                        
