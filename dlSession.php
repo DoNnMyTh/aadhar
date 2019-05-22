@@ -1,7 +1,9 @@
 <?php
 $username = $_POST["username"];
+$username = trim($username);
 $password = $_POST["password"];
-$u = "dl admin";
+$password = trim($password);
+$u = "dladmin";
 $p = "car123";
 if($username == $u && $password == $p) 
 {
