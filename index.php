@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="line">
                                     <div class="s-12 m-12 l-3 center">
-                                        <a class="button button-white-stroke s-12" href="Register.php" style="background:white;color:black;">Register</a>
+                                        <a class="button button-white-stroke" href="Register.php">Register</a>
                                     </div>
                                 </div>
                             </div>

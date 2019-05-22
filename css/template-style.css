@@ -756,7 +756,7 @@ a.background-primary:link,
 .text-white *,
 .primary-color-white .text-primary,
 .primary-color-white .text-primary * {
-    color: #fff !important;
+    color: #333 !important;
 }
 
 .text-primary,
@@ -960,7 +960,7 @@ a.button.button-white-stroke:visited,
 .primary-color-white a.button.button-primary-stroke,
 .primary-color-white a.button.button-primary-stroke:link,
 .primary-color-white a.button.button-primary-stroke:visited {
-    background: none;
+    background: #888;
     border: 1px solid #fff;
     box-shadow: none;
 }
