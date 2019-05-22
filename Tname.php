@@ -22,10 +22,6 @@
   </head>
 
   <body class='size-1140'>
-
-<!-- PREMIUM FEATURES BUTTON -->
-  	<a target='_blank' class='hide-s'style='position:fixed;top:120px;right:-14px;z-index:10;'><img src='img/premium-features.png' alt=''></a>
-    <!-- HEADER -->
 <header role='banner' class='position-absolute' style='background-color:black;'>
       <!-- Top Navigation -->
       <nav class='background-transparent background-transparent-hightlight full-width sticky'>
@@ -51,7 +47,7 @@
       <article>
         <header class="top"> <style>
         .top{
-        background-image:url("img/header1.png");
+        background-image:url("img/aadhar.jpg");
         }</style>
           <div class="line">
           <br>
