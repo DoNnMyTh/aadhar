@@ -82,18 +82,19 @@ $con = new mysqli("localhost","root","","aadhar");
 			<br><td>CATEGORY:    ".$row->category."</td></h2>
 			</tr>");
 	}
-	else
+	else{
 		echo("<h2>Aadhar not registered</h2>");
-
+  }
 
 echo ("<img src='img/me-copy.jpg'  ALIGN='right' style='top:-16 px;'>");
-}session_destroy();
+}
+session_destroy();
 ?>
 </p></div>
 </div>
         </header>
 </div>
-     <script type='text/javascript' src='js/responsee.js'></script>
+    <script type='text/javascript' src='js/responsee.js'></script>
     <script type='text/javascript' src='owl-carousel/owl.carousel.js'></script>
     <script type='text/javascript' src='js/template-scripts.js'></script>
 

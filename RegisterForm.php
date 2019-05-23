@@ -6,8 +6,7 @@
      $phone=$_POST['phone'];
      $state=$_POST['state'];
      $city=$_POST['city'];
-     $email=$_POST['email'];
-     
+     $email=$_POST['email'];     
                        
      
           $con = mysqli_connect("localhost","root","","namitadb");
