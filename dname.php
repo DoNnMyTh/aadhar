@@ -85,9 +85,8 @@ $con = new mysqli("localhost","root","","aadhar");
 	else{
 		echo("<h2>Aadhar not registered</h2>");
   }
-
-echo ("<img src='img/me-copy.jpg'  ALIGN='right' style='top:-16 px;'>");
 }
+echo ("<img src='img/me-copy.jpg'  ALIGN='right' style='top:-16 px;'>");
 session_destroy();
 ?>
 </p></div>
