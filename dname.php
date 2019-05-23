@@ -22,9 +22,6 @@
   </head>
 
   <body class='size-1140'>
-
-<!-- PREMIUM FEATURES BUTTON -->
-  	<a target='_blank' class='hide-s'style='position:fixed;top:120px;right:-14px;z-index:10;'><img src='img/premium-features.png' alt=''></a>
     <!-- HEADER -->
 <header role='banner' class='position-absolute' style='background-color:black;'>
       <!-- Top Navigation -->
@@ -61,6 +58,7 @@
 <br><br>
 </form>
 <?php
+echo ("<img src='img/me-copy.jpg'  ALIGN='right' style='top:-16 px;'>");
 session_start();
 if(isset($_REQUEST["go"]))
 {
@@ -89,20 +87,13 @@ $con = new mysqli("localhost","root","","aadhar");
 		echo("<h2>Aadhar not registered</h2>");
 
 
-echo( img src= 'img/me-Copy.jpg'  ALIGN='right' style='top:-16 px'/>");
+echo ("<img src='img/me-copy.jpg'  ALIGN='right' style='top:-16 px;'>");
 }session_destroy();
 ?>
 </p></div>
 </div>
         </header>
 </div>
-<!-- Bottom Footer -->
-      <section class='padding background-dark full-width'>
-        <div class='s-12 l-6'>
-          <p class='text-size-12'>Copyright </p>
-          <p class='text-size-12'></p>
-        </div>
-      </section>
      <script type='text/javascript' src='js/responsee.js'></script>
     <script type='text/javascript' src='owl-carousel/owl.carousel.js'></script>
     <script type='text/javascript' src='js/template-scripts.js'></script>
