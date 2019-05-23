@@ -49,9 +49,9 @@
                         <div class="content-center-vertical line">
                             <div class="margin-top-bottom-80">
                                 <!-- Title -->
-                                <h1 class="text-white margin-bottom-30 text-size-60 text-m-size-30 text-line-height-1">AADHAAR+</h1>
+                                <h1 class="text-black margin-bottom-30 text-size-60 text-m-size-30 text-line-height-1">AADHAAR+</h1>
                                 <div class="s-12 m-10 l-8 center">
-                                    <p class="text-white text-size-14 margin-bottom-40">Advancing the lives of our citizens with a plus!!</p>
+                                    <p class="text-black text-size-14 margin-bottom-40">Advancing the lives of our citizens with a plus!!</p>
                                 </div>
                                 <div class="line">
                                     <div class="s-12 m-12 l-3 center">
