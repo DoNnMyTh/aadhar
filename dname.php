@@ -58,7 +58,6 @@
 <br><br>
 </form>
 <?php
-echo ("<img src='img/me-copy.jpg'  ALIGN='right' style='top:-16 px;'>");
 session_start();
 if(isset($_REQUEST["go"]))
 {
