@@ -39,8 +39,6 @@
     </header>
 
 
-
-
     <!-- Main Header -->
     <header>
         <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
@@ -68,78 +66,7 @@
         </div>
     </header>
 
-    <!-- Section 1 -->
-    <section class="section-small-padding background-white text-center">
-        <div class="line">
-            <div class="margin">
-
-
-
-                <div class="s-12 m-12 l-4 margin-m-bottom" style="height:334px;">
-                    <div class="padding-2x block-bordered" style="height:332px;">
-
-                        <i class="icon-sli-shield icon3x text-dark center margin-bottom-30"></i>
-
-                        <h2 class="text-thin">Redressal Machinery</h2>
-                        <p class="margin-bottom-30">Set up a responsive and effective grievance redressal machinery, at various levels for time bound resolution of complaints and grievances as far as possible.</p>
-                    </div>
-                </div>
-
-
-
-                <div class="s-12 m-12 l-4 margin-m-bottom" style="height:334px;">
-                    <div class="padding-2x block-bordered" style="height:332px;">
-
-                        <i class="icon-sli-trophy icon3x text-dark center margin-bottom-30"></i>
-
-                        <h2 class="text-thin">Safety Services</h2>
-                        <p class="margin-bottom-30">Provides safe and dependable train services.</p>
-                    </div>
-                </div>
-
-                <div class="s-12 m-12 l-4 margin-m-bottom" style="height:334px;">
-                    <div class="padding-2x block-bordered" style="height:332px;">
-
-                        <i class="icon-sli-home icon3x text-dark center margin-bottom-30"></i>
-
-                        <h2 class="text-thin">Notified Standards</h2>
-                        <p class="margin-bottom-30">
-                            Set notified standards for various services wherever possible. Provide courteous and efficient counter services.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 1 -->
-    <section class="section">
-        <div class="line">
-            <h2 class="text-size-50 text-center">About Us</h2>
-            <hr class="break-small background-primary break-center">
-        </div>
-        <div class="line">
-            <div class="margin">
-                <div class="s-12 m-12 l-2">
-                    <p class="h1 text-size-30 margin-m-bottom-30 text-primary text-line-height-1 text-right">
-                        We Are<br>Lifeline of Transport</p>
-                </div>
-                <div class="s-12 m-12 l-5">
-                    <p class="text-size-14 margin-m-bottom-30 text-dark">
-                        Indian Railways – the lifeline of transport system in our country, is evidently a huge setup, and an organization with numerous branches. With a dedicated ministry and budget in its name, railways help large portions of the country’s population in running
-                        their daily businesses successfully.</p>
-                </div>
-                <div class="s-12 m-12 l-5">
-                    <p class="text-size-14 text-dark">
-                        However, there are a few things you probably don’t know about our trains and how the entire system works. Read on, and maybe you can remember them; or simply be awed every-time you pass by something even remotely related to the railways.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
+    
     <script type="text/javascript" src="js/responsee.js"></script>
     <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="js/template-scripts.js"></script>
