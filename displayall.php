@@ -17,7 +17,7 @@
 	{
 
 
-			echo("<h1 align=center style='color:blue;'>Reistration Details</h1>");
+			echo("<h1 align=center style='color:blue;'>Registration Details</h1>");
 
 			echo("<table align=center width=50% border=2  cellspacing=0 cellpadding=5>");
 			echo("<tr style='font-size:23;color:red;'><td>Username</td><td>Contact</td><td>State</td><td>City</td><td>email</td><td>Update</td><td>Delete</td></tr>");
