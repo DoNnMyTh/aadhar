@@ -73,7 +73,8 @@ $con = new mysqli("localhost","root","","aadhar");
 			<br><td>GENDER:  ".$row->gender."</td>
 			<br><td>CONTACT:  ".$row->phone."</td>
 			<br><td>EMAIL:  ".$row->email."</td>
-			<br><td>ADDRESS:  ".$row->address."</td></h2></tr>");
+      <br><td>ADDRESS:  ".$row->address."</td></h2></tr>"
+    );
 	}
 	else{
     echo("<h2>Aadhar not registered</h2>");
