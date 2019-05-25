@@ -43,7 +43,7 @@
     <br><br><br><br><br><br>
     <?php
 session_start();
-if($_SESSION["role"] == "user")
+if($_SESSION["role"] == "admin")
 {
 $user = $_SESSION["aadhar"];
 $con = new mysqli("localhost","root","","aadhar");
