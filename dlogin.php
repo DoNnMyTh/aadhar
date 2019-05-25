@@ -25,7 +25,7 @@ $sql = "SELECT * FROM adminRole WHERE username='"."$username"."';";
 $result = mysqli_query($conn, $sql);
 
 //passing the query and it will return a object
-$value = mysql_fetch_object($result);
+$value = mysqli_fetch_object($result);
 
 $usernameSql = $value->username;
 $passwordSql = $value->password;
