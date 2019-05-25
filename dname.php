@@ -51,44 +51,12 @@
             <h1 class="text-white margin-top-bottom-40 text-size-60 text-line-height-1">Safe Search...</h1>
             <p class="margin-bottom-0 text-size-16"><br>
 
-<form action="loginAadhar.php" method="POST">
+<form action="dlogin.php" method="POST">
 <b>Enter AADHAR : </b><input type=text name=aadhar value='<?php if(isset($_REQUEST['aadhar'])) echo($_REQUEST['aadhar']); ?>'>
 <br><br><input type=submit value=Search name=go />
 <br><br>
 <br><br>
 </form>
-<?php 
-session_start();
-if(isset($_REQUEST["go"]))
-{
-$user= $_REQUEST["aadhar"];
-$con = new mysqli("localhost","root","","aadhar");
-
-	$qry = "Select * from dl where aadhar_no='$user';";
-	$result = $con->query($qry);
-	if($result->num_rows >0)
-	{
-			echo("<h1 align=center style='color:yellow;'>Driving License Details</h1>");
-			while($row = $result->fetch_object())
-			echo("<tr><td><h2>NAME:   ".$row->name."</td>
-			<br><td>LICENSE NO:   ".$row->DLN."</td>
-			<br><td>VALIDITY FROM:     ".$row->from."</td>
-			<br><td>VALIDITY TO:  ".$row->to."</td>
-			<br><td>GENDER:    ".$row->sex."</td>
-			<br><td>DATE OF BIRTH:    ".$row->DOB."</td>
-			<br><td>EYE:   ".$row->eyes."</td>
-			<br><td>HEIGHT:    ".$row->height."</td>
-			<br><td>ADDRESS:    ".$row->address."</td>
-			<br><td>CATEGORY:    ".$row->category."</td></h2>
-			</tr>");
-	}
-	else{
-    echo("<h2>Aadhar not registered</h2>");
-    
-  }
-}
-session_destroy();
-?>
 </p></div>
 </div>
         </header>

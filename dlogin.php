@@ -16,6 +16,7 @@ and make username as primary key
 
 //post data and included files
 include 'dbCon.php';
+include 'session.php';
 $usernamePost = $_POST["username"];
 $passwordPost = $_POST["password"];
 
