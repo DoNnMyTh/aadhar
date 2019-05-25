@@ -28,9 +28,11 @@ $result = mysqli_query($conn, $sql);
 $value = mysqli_fetch_array($result);
 
 $usernameSql = $value['username'];
+echo $usernameSql;
 $passwordSql = $value['password'];
 $roleSql = $value['role'];
-
+echo $passwordSql;
+echo $roleSql;
 
 if($usernamePost == $usernameSql && $passwordPost == $passwordSql) 
 {
