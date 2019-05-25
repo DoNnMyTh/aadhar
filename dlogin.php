@@ -25,11 +25,11 @@ $sql = "SELECT * FROM adminRole WHERE username='"."$username"."';";
 $result = mysqli_query($conn, $sql);
 
 //passing the query and it will return a object
-$value = mysqli_fetch_object($result);
+$value = mysqlix_fetch_array($result);
 
-$usernameSql = $value->username;
-$passwordSql = $value->password;
-$roleSql = $value->role;
+$usernameSql = $value['username'];
+$passwordSql = $value['password'];
+$roleSql = $value['role'];
 
 
 if($usernamePost == $usernameSql && $passwordPost == $passwordSql) 
