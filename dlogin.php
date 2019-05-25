@@ -33,14 +33,15 @@ while ($row = mysqli_fetch_array ($result)) {
     $passwordSql = $row['password'];
     $roleSql =$row['role'];
 }
-$value = mysqli_fetch_array($result);
 
 if($usernamePost == $usernameSql && $passwordPost == $passwordSql) 
 {
 	if ($roleSql == "user") {
+        $_SESSION["role"] = "$roleSql";
         header('Location: duser.php');
     }
     elseif ($roleSql == "admin") {
+        $_SESSION["role"] = "$roleSql";
         header('Location: dadmin.php');
     }
 }
