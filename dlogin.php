@@ -23,10 +23,16 @@ echo $usernamePost;
 echo$passwordPost;
 
 //sql query to fetch details
-$sql = "SELECT * FROM adminRole WHERE username='"."$username"."';";
+$sql = "SELECT * FROM adminrole WHERE username='"."$username"."';";
 $result = mysqli_query($conn, $sql);
 
 //passing the query and it will return a object
+
+while ($row = mysqli_fetch_array ($result)) {
+    echo "<p>Name: ".$row['username']."</p>";
+    echo "<p>Technologies: ".$row['password']."</p>";
+    echo "<p>Description: ".$row['role']."</p>";
+}
 $value = mysqli_fetch_array($result);
 
 $usernameSql = $value['username'];
