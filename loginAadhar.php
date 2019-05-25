@@ -33,10 +33,12 @@ $roleSql = $value->role;
 
 if($usernamePost == $usernameSql && $passwordPost == $passwordSql) 
 {
-	print "Access granted";
-	session_start();
-	$_SESSION["role"] = $roleSql;
-	//header('Location:menu.php');
+	if ($roleSql == "user") {
+        header('duser.php');
+    }
+    elseif ($roleSql == "admin") {
+        header('dadmin.php');
+    }
 }
 else 
 {

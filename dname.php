@@ -51,13 +51,13 @@
             <h1 class="text-white margin-top-bottom-40 text-size-60 text-line-height-1">Safe Search...</h1>
             <p class="margin-bottom-0 text-size-16"><br>
 
-<form action=dname.php method=get>
+<form action="loginAadhar.php" method="POST">
 <b>Enter AADHAR : </b><input type=text name=aadhar value='<?php if(isset($_REQUEST['aadhar'])) echo($_REQUEST['aadhar']); ?>'>
 <br><br><input type=submit value=Search name=go />
 <br><br>
 <br><br>
 </form>
-<?php
+<?php 
 session_start();
 if(isset($_REQUEST["go"]))
 {
@@ -83,10 +83,10 @@ $con = new mysqli("localhost","root","","aadhar");
 			</tr>");
 	}
 	else{
-		echo("<h2>Aadhar not registered</h2>");
+    echo("<h2>Aadhar not registered</h2>");
+    
   }
 }
-echo ("<img src='img/me-copy.jpg'  ALIGN='right' style='top:-16 px;'>");
 session_destroy();
 ?>
 </p></div>
