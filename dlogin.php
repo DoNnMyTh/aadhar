@@ -38,10 +38,10 @@ $value = mysqli_fetch_array($result);
 if($usernamePost == $usernameSql && $passwordPost == $passwordSql) 
 {
 	if ($roleSql == "user") {
-        header('duser.php');
+        header('Location: duser.php');
     }
     elseif ($roleSql == "admin") {
-        header('dadmin.php');
+        header('Location: dadmin.php');
     }
 }
 else 
