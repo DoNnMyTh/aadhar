@@ -64,7 +64,16 @@ $con = new mysqli("localhost","root","","aadhar");
 			<br><td>HEIGHT:    ".$row->height."</td>
 			<br><td>ADDRESS:    ".$row->address."</td>
 			<br><td>CATEGORY:    ".$row->category."</td></h2>
-			</tr>");
+      </tr>");
+      
+      echo("<h1 align=center style='color:black;'>User Details</h1>");
+			while($row = $result->fetch_object())
+			echo("<tr><td><h2 style='color:black'>NAME:  ".$row->name."</td>
+			<br><td>DATE OF BIRTH:  ".$row->dob."</td>
+			<br><td>GENDER:  ".$row->gender."</td>
+			<br><td>CONTACT:  ".$row->phone."</td>
+			<br><td>EMAIL:  ".$row->email."</td>
+			<br><td>ADDRESS:  ".$row->address."</td></h2></tr>");
 	}
 	else{
     echo("<h2>Aadhar not registered</h2>");
