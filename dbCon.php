@@ -2,7 +2,7 @@
 $servername = 'localhost';
 $username = "root";
 $password = "";
-$dbname = "admin";
+$dbname = "namitadb";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
