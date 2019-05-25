@@ -23,7 +23,7 @@ echo $usernamePost;
 echo$passwordPost;
 
 //sql query to fetch details
-$sql = "SELECT * FROM adminrole WHERE username='"."$username"."';";
+$sql = "SELECT * FROM adminrole WHERE username='"."$usernamePost"."';";
 $result = mysqli_query($conn, $sql);
 
 //passing the query and it will return a object
