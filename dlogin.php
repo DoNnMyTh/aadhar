@@ -29,18 +29,11 @@ $result = mysqli_query($conn, $sql);
 //passing the query and it will return a object
 
 while ($row = mysqli_fetch_array ($result)) {
-    echo "<p>Name: ".$row['username']."</p>";
-    echo "<p>Technologies: ".$row['password']."</p>";
-    echo "<p>Description: ".$row['role']."</p>";
+    $usernameSql =$row['username'];
+    $passwordSql = $row['password'];
+    $roleSql =$row['role'];
 }
 $value = mysqli_fetch_array($result);
-
-$usernameSql = $value['username'];
-echo $usernameSql;
-$passwordSql = $value['password'];
-$roleSql = $value['role'];
-echo $passwordSql;
-echo $roleSql;
 
 if($usernamePost == $usernameSql && $passwordPost == $passwordSql) 
 {
