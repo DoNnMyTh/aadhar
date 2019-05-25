@@ -647,7 +647,7 @@ a.background-dark:link,
 .primary-color-dark .background-primary a:visited,
 .primary-color-dark .background-primary a:hover,
 .primary-color-dark .background-primary a:active {
-    color: #333;
+    color: #fff;
 }
 
 .background-white h1,
@@ -749,7 +749,7 @@ a.background-primary:link,
 .primary-color-primary .background-primary .h4,
 .primary-color-primary .background-primary .h5,
 .primary-color-primary .background-primary .h6 {
-    color: #333;
+    color: #fff;
 }
 
 .text-white,

@@ -51,9 +51,9 @@
             <h1 class="text-white margin-top-bottom-40 text-size-60 text-line-height-1">Safe Search...</h1>
             <p class="margin-bottom-0 text-size-16"><br>
 
-<form action="dlogin.php" method="POST">
-<b>Enter AADHAR : </b><input type=text name=aadhar value='<?php if(isset($_REQUEST['aadhar'])) echo($_REQUEST['aadhar']); ?>'>
-<br><br><input type=submit value=Search name=go />
+<form action="dlogin1.php" method="POST">
+<b>Enter AADHAR : </b><input type=text name=aadhar>
+<br><br><input type=submit value=Search />
 <br><br>
 <br><br>
 </form>
