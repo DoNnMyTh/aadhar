@@ -19,6 +19,8 @@ include 'dbCon.php';
 include 'session.php';
 $usernamePost = $_POST["username"];
 $passwordPost = $_POST["password"];
+echo $usernamePost;
+echo$passwordPost;
 
 //sql query to fetch details
 $sql = "SELECT * FROM adminRole WHERE username='"."$username"."';";
