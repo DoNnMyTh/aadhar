@@ -40,6 +40,7 @@
         </div>
       </nav>
     </header>
+    <br><br><br><br><br><br>
     <?php
 session_start();
 if($_SESSION["role"] == "user")
